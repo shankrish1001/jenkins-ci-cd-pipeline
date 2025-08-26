@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: jenkins-ci-cd-pipeline
+server:
+  port: 8081
