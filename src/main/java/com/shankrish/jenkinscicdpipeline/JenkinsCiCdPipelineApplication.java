@@ -13,13 +13,11 @@ public class JenkinsCiCdPipelineApplication {
 
 	@PostConstruct
 	public void testPostConstruct() {
-		System.out.println("App-testPostConstruct-begin");
 		logger.info("Jenkins application - PostConstruct");
 
 	}
 
 	public static void main(String[] args) {
-		System.out.println("App-main-begin");
 		logger.info("Jenkins application - begin");
 		SpringApplication.run(JenkinsCiCdPipelineApplication.class, args);
 
