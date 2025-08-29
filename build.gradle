@@ -35,7 +35,3 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-
-tasks.build {
-	dependsOn test
-}
