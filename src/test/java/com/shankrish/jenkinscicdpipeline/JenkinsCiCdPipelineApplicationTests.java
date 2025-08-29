@@ -12,7 +12,11 @@ class JenkinsCiCdPipelineApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
+		System.out.println("@SpringBootTest @Test - 1234");
+
 		logger.info("Test case executing...");
+
 	}
 
 }
