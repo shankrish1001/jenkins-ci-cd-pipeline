@@ -28,4 +28,11 @@ class JenkinsCiCdPipelineApplicationTests {
 		assertEquals("It is from - TestService - getText22 - b2", testService.getText22("b2"));
 	}
 
+	@Test
+	void testRestApiTest33() {
+		logger.info("Test 333...");
+		assertEquals("It is from - TestService - getText11 - a333", testService.getText11("a333"));
+	}
+
+
 }
