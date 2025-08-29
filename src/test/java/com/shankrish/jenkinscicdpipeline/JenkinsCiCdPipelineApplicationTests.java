@@ -19,13 +19,13 @@ class JenkinsCiCdPipelineApplicationTests {
 	@Test
 	void testRestApiTest() {
 		logger.info("Test case executing 11...");
-		assertEquals("TestUser", testService.getText11("a1"));
+		assertEquals("It is from - TestService - getText11 - a1", testService.getText11("a1"));
 	}
 
 	@Test
 	void testRestApiTest22() {
 		logger.info("Test case of testRestApi 2222...");
-		assertEquals("TestUser 2222", testService.getText11("b2"));
+		assertEquals("It is from - TestService - getText22 - b2", testService.getText22("b2"));
 	}
 
 }
